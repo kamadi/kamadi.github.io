@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="col-lg-6" style="padding-top: 25px">
+
+		<div class="container">
+
+			<textarea id="text" class="form-control" rows="8" style="resize: none; margin-bottom: 25px" placeholder="Enter text"></textarea>
+
+			<button id="encrypt" onclick="encryptText()" class="btn btn-default btn">Encrypt</button>
+			<button id="decrypt" onclick="decryptText()" class="btn btn-default">Decrypt</button>
+			<p>&nbsp;</p>
+			<p id="decrypt-text"></p>
+			<div id="encrypt-list" style="visibility: hidden;">
+				<ul class="list-group">
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+				</ul>
+				<p>&nbsp;</p>
+				<button onclick="copyText()" class="btn btn-default btn">Copy to input</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	function encrypt(text) {
+		var ri = [2, 1];
+		var sj = [4, 1, 3, 2];
+		var n = 4;
+		var finalBlocks = ["", "", "", "", "", "", "", ""];
+		var l = 0;
+
+		while (l < text.length) {
+			for (var i = 0; i < ri.length; i++) {
+				for (var j = 0; j < sj.length; j++) {
+					var k = (ri[i] - 1) * 4 + sj[j];
+					finalBlocks[k - 1] += text.charAt(l);
+					l++;
+				}
+			}
+		}
+
+		console.log(finalBlocks);
+		return finalBlocks;
+	}
+
+	function decrypt(textBlocks) {
+		var ri = [2, 1];
+		var sj = [4, 1, 3, 2];
+
+		var str = "";
+
+		var l = 0;
+
+		for (var k = 0; k <= 7; k++) {
+			l = l + textBlocks[k].length;
+		}
+
+
+		var n = 4;
+		var i = 0;
+		var j = 0;
+		var x;
+
+		for (var k = 0; k < l; k++) {
+			x = (ri[j] - 1) * n + sj[i];
+			str = str + textBlocks[x - 1].substring(0, 1);
+			textBlocks[x - 1] = textBlocks[x - 1].substring(1);
+
+			i++;
+			if (i == 4) {
+				i = 0;
+				j++;
+			}
+			if (j == 2) {
+				j = 0;
+			}
+		}
+		console.log(str);
+		return str;
+	}
+
+	//var res = encrypt("МЕТОД_РАССЕЧЕНИЯ-РАЗНЕСЕНИЯ");
+
+	function encryptText() {
+		var text = document.getElementById("text").value
+		var textBlocks = encrypt(text);
+		var items = document.getElementsByClassName("list-group-item");
+		for (i = 0; i < items.length; i++) {
+			items[i].innerHTML = "\"" + textBlocks[i] + "\"";
+		}
+		document.getElementById("decrypt-text").innerHTML = null;
+		document.getElementById("encrypt-list").style.visibility = "visible";
+	}
+
+	function decryptText() {
+		var texts = document.getElementById("text").value.split("\n")
+		console.log(texts);
+		if (texts.length == 8) {
+			document.getElementById("encrypt-list").style.visibility = "hidden";
+			var text = decrypt(texts);
+			document.getElementById("decrypt-text").innerHTML = text;
+		} else {
+			alert("Input text is wrong");
+		}
+	}
+
+	function copyText() {
+		var items = document.getElementsByClassName("list-group-item");
+		var texts = ""
+		for (i = 0; i < items.length; i++) {
+			texts += items[i].innerHTML.slice(1, -1);
+			if (i < items.length - 1)
+				texts += "\n";
+		}
+		document.getElementById("text").value = texts;
+	}
+
+</script>
+
+</html>
