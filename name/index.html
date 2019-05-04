@@ -10,7 +10,7 @@
 
 		<div class="container">
 
-			<input id="text" class="form-control" rows="8" style="resize: none; margin-bottom: 25px" placeholder=""></textarea>
+			<input id="text" class="form-control" rows="8" style="resize: none; margin-bottom: 25px" placeholder="Адам есімін еңгізіңіз"></textarea>
 
 			<button id="find" onclick="find()" class="btn btn-default btn">Іздеу</button>
 			<p>&nbsp;</p>
@@ -36,16 +36,23 @@
 
         function find() {
             var text = document.getElementById("text").value
-            console.log(text);    
-            mapKeys.forEach(element => {
-                var arr = names[element];      
-                for(var i = 0; i < arr.length; i++) {
-                    if(arr[i] == text){
-                        console.log(text);
-                        document.getElementById("result-text").innerHTML = element;
+            var find = false;    
+            for(var i = 0; i < mapKeys.length; i++) {
+                var arr = names[mapKeys[i]];      
+                for(var j = 0; j < arr.length; j++) {
+                    if(arr[j].toLowerCase() == text.toLowerCase()){
+                        find = true;
+                        document.getElementById("result-text").innerHTML = mapKeys[i];
+                        break;
                     }
+                }
+                if(find){
+                    break;
                 }  
-            });
+            }
+            if(!find){
+                document.getElementById("result-text").innerHTML = "Сөздіктен табылмады";
+            }
         }  
     </script>
 </html>
