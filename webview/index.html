@@ -10,18 +10,18 @@
         <div id="message">
 
         </div>
-        <input type="button" value="Show message" onClick="showMessage('Hello World!')"
-            style="width:50%;height:100px" />
+        <input type="button" value="Set status code" onClick="setStatusCode()" style="width:50%;height:100px" />
     </div>
     <script type="text/javascript">
-        function showMessage(toast) {
+
+        function setStatusCode() {
             if (iOS()) {
-                window.webkit.messageHandlers.jsHandler.postMessage("Hello world");
+                window.webkit.messageHandlers.statusCodeHandler.postMessage(99);
             } else {
-                Android.showMessage(toast);
+                Android.setStatusCode(99);
             }
         }
-        
+
         function addMessage(message) {
             console.log(message)
             const paragraph = document.createElement('p');
@@ -30,7 +30,6 @@
         }
 
         function iOS() {
-
             var iDevices = [
                 'iPad Simulator',
                 'iPhone Simulator',
@@ -39,7 +38,6 @@
                 'iPhone',
                 'iPod'
             ];
-
             if (!!navigator.platform) {
                 while (iDevices.length) {
                     if (navigator.platform === iDevices.pop()) { return true; }
