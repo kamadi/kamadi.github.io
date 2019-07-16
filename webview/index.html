@@ -17,8 +17,9 @@
             Android.showMessage(toast);
         }
         function addMessage(message){
+            console.log(message);
             const paragraph = document.createElement('p');
-            paragraph.innerHTML = message    
+            paragraph.innerHTML = message;    
             document.getElementById("message").appendChild(paragraph);
         }
     </script>
