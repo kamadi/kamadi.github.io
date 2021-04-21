@@ -1,0 +1,27 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "kz.tsb.app24",
+            "sha256_cert_fingerprints": [
+                "9F:1D:43:E7:50:BF:ED:AC:AE:42:A8:EC:BD:8D:27:16:C7:5F:49:5E:64:6A:1E:E6:8D:14:29:E9:5C:AE:83:CC",
+                "E6:7C:82:3C:24:FD:68:2E:63:30:67:DD:24:4A:A2:9C:1A:82:8F:A1:72:94:E5:2C:85:A8:2B:61:9F:28:72:CE"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "kz.tsb.app24.debug",
+            "sha256_cert_fingerprints": [
+                "BF:6D:B6:0C:D0:D7:89:81:75:6F:EB:6B:B7:F2:C9:65:1F:9D:5B:14:B2:AA:6D:25:C7:60:F6:72:2F:89:75:2A"
+            ]
+        }
+    }
+]
