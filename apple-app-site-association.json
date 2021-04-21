@@ -5,7 +5,7 @@
       {
         "appID": "B2R63P7JMK.kz.tsb.app24",
         "paths": [
-          "/path-for-redirectionl/*"
+          "*"
         ]
       }
     ]
