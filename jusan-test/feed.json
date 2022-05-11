@@ -1,0 +1,100 @@
+{
+    "products": [
+      {
+        "title": "Открыть карту",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/jysanpay/jusanpay.png"
+      },
+      {
+        "title": "Оформить кредит",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/express/express.png"
+      },
+      {
+        "title": "Рефинансировать займ",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/refinancing/refinance.png"
+      },
+      {
+        "title": "Открыть депозит",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/deposit/deposit.png"
+      },
+      {
+        "title": "Купить страховку",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/insurance/insurance_car.png"
+      },
+      {
+        "title": "Открыть инвест. счет",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/invest/invest.png"
+      },
+      {
+        "title": "Открыть соц. карту",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/social/social.png"
+      },
+      {
+        "title": "Открыть детскую карту",
+        "preview": "https://static.jysanbank.kz/mobile/products/banners/junior/junior.png"
+      }
+    ],
+    "services": [
+      {
+        "type": "qr",
+        "title": "jusan QR"
+      },
+      {
+        "type": "market",
+        "title": "магазин"
+      },
+      {
+        "type": "garant",
+        "title": "страхование"
+      },
+      {
+        "type": "invest",
+        "title": "инвестиции"
+      },
+      {
+        "type": "junior",
+        "title": "junior"
+      },
+      {
+        "type": "tickets",
+        "title": "билеты"
+      },
+      {
+        "type": "mobile",
+        "title": "mobile"
+      },
+      {
+        "type": "gov",
+        "title": "гос. услуги"
+      }
+    ],
+    "promotions": [
+      {
+        "link": "https://jmart.kz/products?category_id=2889",
+        "image": "https://static.jysanbank.kz/mobile/main/market/ru/children.png"
+      },
+      {
+        "link": "https://jmart.kz/products?category_id=1391",
+        "image": "https://static.jysanbank.kz/mobile/main/market/ru/computers.png"
+      },
+      {
+        "link": "https://jmart.kz/products?category_id=787",
+        "image": "https://static.jysanbank.kz/mobile/main/market/ru/furniture.png"
+      },
+      {
+        "link": "https://jmart.kz/products?category_id=2879",
+        "image": "https://static.jysanbank.kz/mobile/main/market/ru/gifts.png"
+      },
+      {
+        "link": "https://jmart.kz/products?category_id=16593",
+        "image": "https://static.jysanbank.kz/mobile/main/market/ru/skillbox.png"
+      },
+      {
+        "link": "https://jmart.kz/products?category_id=268",
+        "image": "https://static.jysanbank.kz/mobile/main/market/ru/smartphones.png"
+      },
+      {
+        "link": "https://jmart.kz/store",
+        "image": "https://static.jysanbank.kz/mobile/main/market/ru/supermarket.png"
+      }
+    ]
+  }

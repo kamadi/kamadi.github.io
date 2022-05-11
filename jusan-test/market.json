@@ -1,0 +1,190 @@
+[
+    {
+        "title": "Смартфоны и гаджеты",
+        "category_id": 268,
+        "color": "#c9d5e1",
+        "url": "https://jmart.kz/products?category_id=268",
+        "image_path": "https://jmart.kz/images/detailed/2097/Смартфоны_и_гаджеты.png",
+        "type": "main_page_categories",
+        "order": 16,
+        "transparency": "15",
+        "subcategories": [
+            {
+                "title": "Смартфоны Apple",
+                "category_id": 374,
+                "url": "https://new.jmart.kz/products?category_id=268&filter=18-118103&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Смартфоны_Apple.png",
+                "position": "1"
+            },
+            {
+                "title": "Смартфоны Samsung",
+                "category_id": 376,
+                "url": "https://new.jmart.kz/products?category_id=268&filter=18-118105&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Смартфоны_Samsung.png",
+                "position": "2"
+            },
+            {
+                "title": "Наушники",
+                "category_id": 454,
+                "url": "https://new.jmart.kz/products?category_id=454&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Наушники.png",
+                "position": "3"
+            },
+            {
+                "title": "Смартчасы",
+                "category_id": 11803,
+                "url": "https://new.jmart.kz/products?category_id=11803&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Смартчасы.png",
+                "position": "4"
+            },
+            {
+                "title": "Планшеты",
+                "category_id": 11806,
+                "url": "https://new.jmart.kz/products?category_id=11806&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Планшеты.png",
+                "position": "5"
+            }
+        ]
+    },
+    {
+        "title": "Мебель",
+        "category_id": 787,
+        "color": "#f9cd9c",
+        "url": "https://jmart.kz/products?category_id=787",
+        "image_path": "https://jmart.kz/images/detailed/2097/Мебель.png",
+        "type": "main_page_categories",
+        "order": 17,
+        "transparency": "14",
+        "subcategories": [
+            {
+                "title": "Обеденные столы",
+                "category_id": 468,
+                "url": "https://new.jmart.kz/products?category_id=468&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Обеденные_столы.png",
+                "position": "1"
+            },
+            {
+                "title": "Диваны",
+                "category_id": 574,
+                "url": "https://new.jmart.kz/products?category_id=574&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Диваны.png",
+                "position": "2"
+            },
+            {
+                "title": "Спальные гарнитуры",
+                "category_id": 809,
+                "url": "https://new.jmart.kz/products?category_id=809&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Спальные_гарнитуры.png",
+                "position": "3"
+            },
+            {
+                "title": "Кухонные гарнитуры",
+                "category_id": 796,
+                "url": "https://new.jmart.kz/products?category_id=796&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Кухонные_гарнитуры.png",
+                "position": "4"
+            },
+            {
+                "title": "Кровати",
+                "category_id": 421,
+                "url": "https://new.jmart.kz/products?category_id=421&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Кровати.png",
+                "position": "5"
+            }
+        ]
+    },
+    {
+        "title": "Бытовая техника",
+        "category_id": 272,
+        "color": "#ffb18e",
+        "url": "https://jmart.kz/products?category_id=272",
+        "image_path": "https://jmart.kz/images/detailed/2097/Бытовая_техника.png",
+        "type": "main_page_categories",
+        "order": 18,
+        "transparency": "14",
+        "subcategories": [
+            {
+                "title": "Thermomix",
+                "category_id": 21352,
+                "url": "https://new.jmart.kz/products?category_id=36474&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Thermomix.png",
+                "position": "1"
+            },
+            {
+                "title": "Пылесосы",
+                "category_id": 12408,
+                "url": "https://new.jmart.kz/products?category_id=12408&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Пылесосы.png",
+                "position": "2"
+            },
+            {
+                "title": "Стиральные машины",
+                "category_id": 12419,
+                "url": "https://new.jmart.kz/products?category_id=12419&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Стиральные_машины.png",
+                "position": "3"
+            },
+            {
+                "title": "Холодильники",
+                "category_id": 12418,
+                "url": "https://new.jmart.kz/products?category_id=12418&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Холодильники.png",
+                "position": "4"
+            },
+            {
+                "title": "Климатическая техника",
+                "category_id": 287,
+                "url": "https://new.jmart.kz/products?category_id=287&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Климатическая_техника.png",
+                "position": "5"
+            }
+        ]
+    },
+    {
+        "title": "Обучающие курсы",
+        "category_id": 1246,
+        "color": "#007fff",
+        "url": "https://jmart.kz/products?category_id=1246",
+        "image_path": "https://jmart.kz/images/detailed/2097/screenshot.jpeg",
+        "type": "main_page_categories",
+        "order": 19,
+        "transparency": "16",
+        "subcategories": [
+            {
+                "title": "Skillbox",
+                "category_id": 16593,
+                "url": "https://new.jmart.kz/products?category_id=16593&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Skillbox.png",
+                "position": "1"
+            },
+            {
+                "title": "Geekbrains",
+                "category_id": 23252,
+                "url": "https://new.jmart.kz/products?category_id=23252&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Geekbrains.png",
+                "position": "2"
+            },
+            {
+                "title": "Бизнес курсы",
+                "category_id": 11184,
+                "url": "https://new.jmart.kz/products?category_id=11184&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Бизнес_курсы.png",
+                "position": "3"
+            },
+            {
+                "title": "Повышение квалификации",
+                "category_id": 1427,
+                "url": "https://new.jmart.kz/products?category_id=1427&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Повышение_квалификации.png",
+                "position": "4"
+            },
+            {
+                "title": "Творческие курсы",
+                "category_id": 6343,
+                "url": "https://new.jmart.kz/products?category_id=6343&page=1",
+                "image_path": "https://jmart.kz/images/detailed/2097/Творческие_курсы.png",
+                "position": "5"
+            }
+        ]
+    }
+]
